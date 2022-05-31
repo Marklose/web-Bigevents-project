@@ -1,0 +1,24 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 15px;
+  background-color: #f2f3f5;
+}
+
+.layui-form {
+  width: 500px;
+}
+.layui-input{
+  width: 360px;
+}
+.icon {
+  float: right;
+  margin-top: -32px;
+  width: 30px;
+  height: 30px;
+  background: url(/assets/images/20210804104455948.png) no-repeat center;
+}
