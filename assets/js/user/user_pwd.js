@@ -30,10 +30,10 @@ $(function () {
     $('.icon').on('click', function () {
         const index = $('.icon').index(this);
         if ($('.layui-input').eq(index).attr('type') == 'password') {
-            $(this).css('background','url(/assets/images/20210804104527512.png) no-repeat center')
+            $(this).css('background','url(/assets/images/20210804104455948.png) no-repeat center')
             $('.layui-input').eq(index).attr('type', 'text')
         } else {
-            $(this).css('background','url(/assets/images/20210804104455948.png) no-repeat center')
+            $(this).css('background','url(/assets/images/20210804104527512.png) no-repeat center')
             $('.layui-input').eq(index).attr('type', 'password')
         }
     })

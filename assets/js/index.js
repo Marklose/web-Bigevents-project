@@ -6,7 +6,7 @@ function getUserInfo() {
         //     Authorization: localStorage.getItem('token')
         // },
         success: res => {
-            console.log(res);
+            // console.log(res);
             if (res.status !== 0) return layer.msg("获取用户信息失败！");
             layer.msg("获取用户信息成功！");
             renderAvatar(res.data)
@@ -43,4 +43,7 @@ $('#btnLogout').on('click', () =>{
     );
 })
 
+function change(){
+    $('#change').attr('class','layui-this').next().attr('class','')
+}
 getUserInfo()

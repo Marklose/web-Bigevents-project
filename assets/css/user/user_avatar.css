@@ -24,7 +24,7 @@ body {
 .cropper-box {
   width: 350px;
   height: 350px;
-  background-color: cyan;
+  background-color: gray;
   overflow: hidden;
 }
 
